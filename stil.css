@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */	
+body{
+    background-image: url(slike/pexels-mont-photographs-2948636.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Monaco", Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff9999;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #339999;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #666666;
+}
+
